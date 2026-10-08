@@ -74,3 +74,9 @@ section .voir-button {
     gap: 40px;
     margin-left: 25px;
 }
+section p{
+    color: white;
+}
+section h2{
+    color: white;
+}
