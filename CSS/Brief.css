@@ -1,0 +1,119 @@
+nav {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    margin-left: 150px;    
+}
+nav li{
+    white-space: nowrap;
+}
+nav ul a {
+    color: black;
+    text-decoration: none;
+}
+
+nav button {
+    margin-left: 300px;
+    padding: 10px 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: #08111D;
+    padding: 0px 40px;
+}
+
+section .bluelife{
+color:#034bff;
+font-family :'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+font-size: 150px;
+line-height: 0.5%;
+position: relative;
+top: 240px;
+
+
+}
+section h1{
+    color: white;
+    font-family :'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 110px;
+    line-height: 1%;
+    position: relative;
+    top: 250px;
+}
+
+section .blue-button {
+    white-space: nowrap;
+    background-color: #034bff;
+    padding: 10px 50px;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    position: relative;
+    right: 0%;
+    bottom : 150px;
+}
+section .voir-button {
+    white-space: nowrap;
+    background-color: #08111D;
+    padding: 10px 50px;
+    color: white;
+    border-radius: 7px;
+    border-color: #034bff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    left: 290px;
+    bottom : 187px;
+}
+section h2{
+    color: white;
+    font-family :'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 45px;
+    position: relative;
+    bottom: 120px;
+    left: 7px;    
+
+}
+section .symbol{
+    color: #c7f64a;
+    font-family :'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 150px;
+    text-align: right;
+    position: relative;
+    right: 150px;
+    bottom : 110px;
+
+}
+p{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    position: relative;
+    bottom: 150px;
+    left: 9px;    
+}
+.Image-hero {
+    object-fit: cover;
+}
